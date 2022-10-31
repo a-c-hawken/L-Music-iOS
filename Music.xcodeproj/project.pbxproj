@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0328CC28EE7D46009658A6 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0328CB28EE7D46009658A6 /* SettingsTableViewController.swift */; };
+		FC33038128EACE6900169F3A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33038028EACE6900169F3A /* SearchViewController.swift */; };
+		FC3ECE8228EBA63800CA5C31 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FC3ECE8128EBA63800CA5C31 /* SDWebImage */; };
+		FC3ECE8828EBA72D00CA5C31 /* YoutubeDL in Frameworks */ = {isa = PBXBuildFile; productRef = FC3ECE8728EBA72D00CA5C31 /* YoutubeDL */; };
 		FC636A7D2754C13900E28C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC636A7C2754C13900E28C7E /* AppDelegate.swift */; };
 		FC636A7F2754C13900E28C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC636A7E2754C13900E28C7E /* SceneDelegate.swift */; };
-		FC636A812754C13900E28C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC636A802754C13900E28C7E /* ViewController.swift */; };
 		FC636A842754C13900E28C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC636A822754C13900E28C7E /* Main.storyboard */; };
 		FC636A862754C13A00E28C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC636A852754C13A00E28C7E /* Assets.xcassets */; };
 		FC636A892754C13A00E28C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC636A872754C13A00E28C7E /* LaunchScreen.storyboard */; };
+		FC7C927228EC1C8000C9D953 /* UpNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7C927128EC1C7F00C9D953 /* UpNextViewController.swift */; };
+		FC7C927428EC243600C9D953 /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7C927328EC243600C9D953 /* LyricsViewController.swift */; };
+		FC7C927628ECF6FE00C9D953 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7C927528ECF6FE00C9D953 /* Reachability.swift */; };
+		FC89A6DC28EE309D007818BC /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC89A6DB28EE309D007818BC /* LibraryViewController.swift */; };
+		FC9D499928ED7F1C0074B5FF /* SongListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9D499828ED7F1C0074B5FF /* SongListTableViewCell.swift */; };
+		FCFD5D9128E96D6E00D3473E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD5D9028E96D6E00D3473E /* AudioPlayer.swift */; };
+		FCFD5D9328E97B7500D3473E /* MusicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD5D9228E97B7500D3473E /* MusicAPI.swift */; };
+		FCFD5D9528E98D2000D3473E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD5D9428E98D2000D3473E /* HomeViewController.swift */; };
+		FCFD5D9A28EA9B4B00D3473E /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD5D9928EA9B4B00D3473E /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0328CB28EE7D46009658A6 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		FC33038028EACE6900169F3A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FC636A792754C13900E28C7E /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC636A7C2754C13900E28C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC636A7E2754C13900E28C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC636A802754C13900E28C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC636A832754C13900E28C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC636A852754C13A00E28C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC636A882754C13A00E28C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC636A8A2754C13A00E28C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7C927128EC1C7F00C9D953 /* UpNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextViewController.swift; sourceTree = "<group>"; };
+		FC7C927328EC243600C9D953 /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
+		FC7C927528ECF6FE00C9D953 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FC89A6DB28EE309D007818BC /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FC9D499828ED7F1C0074B5FF /* SongListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListTableViewCell.swift; sourceTree = "<group>"; };
+		FCFD5D9028E96D6E00D3473E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		FCFD5D9228E97B7500D3473E /* MusicAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAPI.swift; sourceTree = "<group>"; };
+		FCFD5D9428E98D2000D3473E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FCFD5D9928EA9B4B00D3473E /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3ECE8828EBA72D00CA5C31 /* YoutubeDL in Frameworks */,
+				FC3ECE8228EBA63800CA5C31 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,33 @@
 		FC636A7B2754C13900E28C7E /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				FCDA73902908D8BB0098992A /* View Controllers */,
+				FC7C927528ECF6FE00C9D953 /* Reachability.swift */,
 				FC636A7C2754C13900E28C7E /* AppDelegate.swift */,
 				FC636A7E2754C13900E28C7E /* SceneDelegate.swift */,
-				FC636A802754C13900E28C7E /* ViewController.swift */,
 				FC636A822754C13900E28C7E /* Main.storyboard */,
 				FC636A852754C13A00E28C7E /* Assets.xcassets */,
 				FC636A872754C13A00E28C7E /* LaunchScreen.storyboard */,
 				FC636A8A2754C13A00E28C7E /* Info.plist */,
+				FCFD5D9028E96D6E00D3473E /* AudioPlayer.swift */,
+				FCFD5D9228E97B7500D3473E /* MusicAPI.swift */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		FCDA73902908D8BB0098992A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD5D9428E98D2000D3473E /* HomeViewController.swift */,
+				FCFD5D9928EA9B4B00D3473E /* NowPlayingViewController.swift */,
+				FC33038028EACE6900169F3A /* SearchViewController.swift */,
+				FC7C927128EC1C7F00C9D953 /* UpNextViewController.swift */,
+				FC7C927328EC243600C9D953 /* LyricsViewController.swift */,
+				FC9D499828ED7F1C0074B5FF /* SongListTableViewCell.swift */,
+				FC89A6DB28EE309D007818BC /* LibraryViewController.swift */,
+				FC0328CB28EE7D46009658A6 /* SettingsTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,10 @@
 			dependencies = (
 			);
 			name = Music;
+			packageProductDependencies = (
+				FC3ECE8128EBA63800CA5C31 /* SDWebImage */,
+				FC3ECE8728EBA72D00CA5C31 /* YoutubeDL */,
+			);
 			productName = Music;
 			productReference = FC636A792754C13900E28C7E /* Music.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +156,10 @@
 				Base,
 			);
 			mainGroup = FC636A702754C13900E28C7E;
+			packageReferences = (
+				FC3ECE8028EBA63800CA5C31 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				FC3ECE8628EBA72D00CA5C31 /* XCRemoteSwiftPackageReference "YoutubeDL-iOS" */,
+			);
 			productRefGroup = FC636A7A2754C13900E28C7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC636A812754C13900E28C7E /* ViewController.swift in Sources */,
+				FC7C927428EC243600C9D953 /* LyricsViewController.swift in Sources */,
+				FC0328CC28EE7D46009658A6 /* SettingsTableViewController.swift in Sources */,
+				FC7C927228EC1C8000C9D953 /* UpNextViewController.swift in Sources */,
+				FCFD5D9528E98D2000D3473E /* HomeViewController.swift in Sources */,
+				FC33038128EACE6900169F3A /* SearchViewController.swift in Sources */,
 				FC636A7D2754C13900E28C7E /* AppDelegate.swift in Sources */,
+				FCFD5D9328E97B7500D3473E /* MusicAPI.swift in Sources */,
 				FC636A7F2754C13900E28C7E /* SceneDelegate.swift in Sources */,
+				FC9D499928ED7F1C0074B5FF /* SongListTableViewCell.swift in Sources */,
+				FCFD5D9A28EA9B4B00D3473E /* NowPlayingViewController.swift in Sources */,
+				FC7C927628ECF6FE00C9D953 /* Reachability.swift in Sources */,
+				FC89A6DC28EE309D007818BC /* LibraryViewController.swift in Sources */,
+				FCFD5D9128E96D6E00D3473E /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +346,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UH94N3C87;
 				INFOPLIST_FILE = Music/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "L Music";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucasalward.Music;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasalward.Music-temp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +369,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3UH94N3C87;
 				INFOPLIST_FILE = Music/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "L Music";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lucasalward.Music;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasalward.Music-temp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,6 +409,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC3ECE8028EBA63800CA5C31 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FC3ECE8628EBA72D00CA5C31 /* XCRemoteSwiftPackageReference "YoutubeDL-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/YoutubeDL-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC3ECE8128EBA63800CA5C31 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3ECE8028EBA63800CA5C31 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FC3ECE8728EBA72D00CA5C31 /* YoutubeDL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3ECE8628EBA72D00CA5C31 /* XCRemoteSwiftPackageReference "YoutubeDL-iOS" */;
+			productName = YoutubeDL;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC636A712754C13900E28C7E /* Project object */;
 }
