@@ -201,20 +201,24 @@ class NowPlayingViewController: UIViewController {
         routePickerView?.topAnchor.constraint(equalTo: outputPickerView.topAnchor).isActive = true
         routePickerView?.bottomAnchor.constraint(equalTo: outputPickerView.bottomAnchor).isActive = true
         
-        self.moreBarButtonItem.menu = UIMenu(title: "", children: [
-            UIAction(title: "Download Song", image: UIImage(systemName: "square.and.arrow.down"), handler: { _ in
-                MusicAPI.shared.download { message in
-                    DispatchQueue.main.async {
-                        let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
-                        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-                        self.present(alert, animated: true)
+        if #available(iOS 14.0, *) {
+            self.moreBarButtonItem.menu = UIMenu(title: "", children: [
+                UIAction(title: "Download Song", image: UIImage(systemName: "square.and.arrow.down"), handler: { _ in
+                    MusicAPI.shared.download { message in
+                        DispatchQueue.main.async {
+                            let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
+                            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+                            self.present(alert, animated: true)
+                        }
                     }
-                }
-            }),
-            UIAction(title: "Stop Playing", image: UIImage(systemName: "stop"), attributes: .destructive, handler: { _ in
-                MusicAPI.shared.stop()
-            })
-        ])
+                }),
+                UIAction(title: "Stop Playing", image: UIImage(systemName: "stop"), attributes: .destructive, handler: { _ in
+                    MusicAPI.shared.stop()
+                })
+            ])
+        } else {
+            // TODO: Implement UIAlertController
+        }
         
         MusicAPI.shared.register(for: .songState) {
             guard let song = MusicAPI.shared.currentlyPlayingSong() else {
